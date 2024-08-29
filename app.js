@@ -38,7 +38,7 @@ app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
 
 // Routes
-const routes = require('./routes/index');
+const routes = require('./routes/index.js');
 app.use('/', routes);
 
 // Start the server
